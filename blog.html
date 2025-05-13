@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechInsight Blog - Articles</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>TechInsight</h1>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="blog.html" class="active">Blog</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="mobile-menu">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <div class="theme-toggle">
+                    <i class="fas fa-moon"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>Our Blog</h1>
+            <p>Explore our latest articles and insights</p>
+        </div>
+    </section>
+
+    <section class="blog-filters">
+        <div class="container">
+            <div class="search-bar">
+                <input type="text" id="search-input" placeholder="Search articles...">
+                <button id="search-btn"><i class="fas fa-search"></i></button>
+            </div>
+            <div class="category-filters">
+                <button class="filter-btn active" data-category="all">All</button>
+                <button class="filter-btn" data-category="web-development">Web Development</button>
+                <button class="filter-btn" data-category="artificial-intelligence">AI</button>
+                <button class="filter-btn" data-category="cybersecurity">Cybersecurity</button>
+                <button class="filter-btn" data-category="programming">Programming</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="blog-posts">
+        <div class="container">
+            <div class="posts-grid" id="posts-container">
+                <!-- Web Development Posts -->
+                <article class="post-card" data-category="web-development">
+                    <div class="post-image">
+                        <img src="https://via.placeholder.com/600x400" alt="Web Development">
+                    </div>
+                    <div class="post-content">
+                        <div class="post-category">Web Development</div>
+                        <h3><a href="post.html">The Future of Web Development in 2023</a></h3>
+                        <p>Exploring the latest trends and technologies shaping the web development landscape.</p>
+                        <div class="post-meta">
+                            <span><i class="far fa-calendar"></i> May 10, 2023</span>
+                            <span><i class="far fa-comment"></i> 24 Comments</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="post-card" data-category="web-development">
+                    <div class="post-image">
+                        <img src="https://via.placeholder.com/600x400" alt="CSS Frameworks">
+                    </div>
+                    <div class="post-content">
+                        <div class="post-category">Web Development</div>
+                        <h3><a href="post.html">Comparing Top CSS Frameworks in 2023</a></h3>
+                        <p>An in-depth analysis of the most popular CSS frameworks and when to use each.</p>
+                        <div class="post-meta">
+                            <span><i class="far fa-calendar"></i> May 2, 2023</span>
+                            <span><i class="far fa-comment"></i> 16 Comments</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- AI Posts -->
+                <article class="post-card" data-category="artificial-intelligence">
+                    <div class="post-image">
+                        <img src="https://via.placeholder.com/600x400" alt="AI Technology">
+                    </div>
+                    <div class="post-content">
+                        <div class="post-category">Artificial Intelligence</div>
+                        <h3><a href="post.html">How AI is Transforming Industries</a></h3>
+                        <p>A deep dive into how artificial intelligence is revolutionizing various sectors.</p>
+                        <div class="post-meta">
+                            <span><i class="far fa-calendar"></i> May 8, 2023</span>
+                            <span><i class="far fa-comment"></i> 18 Comments</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="post-card" data-category="artificial-intelligence">
+                    <div class="post-image">
+                        <img src="https://via.placeholder.com/600x400" alt="Machine Learning">
+                    </div>
+                    <div class="post-content">
+                        <div class="post-category">Artificial Intelligence</div>
+                        <h3><a href="post.html">Getting Started with Machine Learning</a></h3>
+                        <p>A beginner's guide to understanding and implementing machine learning algorithms.</p>
+                        <div class="post-meta">
+                            <span><i class="far fa-calendar"></i> April 28, 2023</span>
+                            <span><i class="far fa-comment"></i> 10 Comments</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Cybersecurity Posts -->
+                <article class="post-card" data-category="cybersecurity">
+                    <div class="post-image">
+                        <img src="https://via.placeholder.com/600x400" alt="Cybersecurity">
+                    </div>
+                    <div class="post-content">
+                        <div class="post-category">Cybersecurity</div>
+                        <h3><a href="post.html">Essential Cybersecurity Practices for Developers</a></h3>
+                        <p>Key security practices every developer should implement in their projects.</p>
+                        <div class="post-meta">
+                            <span><i class="far fa-calendar"></i> May 5, 2023</span>
+                            <span><i class="far fa-comment"></i> 12 Comments</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Programming Posts -->
+                <article class="post-card" data-category="programming">
+                    <div class="post-image">
+                        <img src="https://via.placeholder.com/600x400" alt="JavaScript">
+                    </div>
+                    <div class="post-content">
+                        <div class="post-category">Programming</div>
+                        <h3><a href="post.html">Modern JavaScript Features You Should Know</a></h3>
+                        <p>Exploring the most useful JavaScript features that can improve your code quality.</p>
+                        <div class="post-meta">
+                            <span><i class="far fa-calendar"></i> April 25, 2023</span>
+                            <span><i class="far fa-comment"></i> 20 Comments</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>TechInsight</h2>
+                    <p>Exploring the digital frontier</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h3>Connect With Us</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 TechInsight Blog. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/blog.js"></script>
+</body>
+</html>
