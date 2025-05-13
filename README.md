@@ -13,6 +13,19 @@ TechInsight is a multi-page blog website focused on technology topics. The site 
 - Newsletter subscription
 - Comment system
 
+## Project Requirements (Final Project and Deployment)
+
+### Objectives
+- Build a fully functional web application.
+- Apply HTML, CSS, and JavaScript concepts learned.
+- Deploy the project using GitHub Pages, Netlify, or Vercel.
+
+### Requirements Met
+- Created a Blog Website with multi-page site and navigation
+- Implemented responsive design that works on all devices
+- Added JavaScript interactivity (dark mode, filtering, form validation)
+- Ready for deployment with all necessary files
+
 ## Pages
 
 1. **Home Page** - Features a hero section, featured posts, and newsletter signup
